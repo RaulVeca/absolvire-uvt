@@ -1,0 +1,32 @@
+[02-Mar-2025 17:15:07 Europe/Bucharest] PHP Warning:  parse_ini_file(../.env): Failed to open stream: No such file or directory in /home/absolvire/public_html/connect.php on line 3
+[02-Mar-2025 17:15:07 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 4
+[02-Mar-2025 17:15:07 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 5
+[02-Mar-2025 17:15:07 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 6
+[02-Mar-2025 17:15:07 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 7
+[02-Mar-2025 17:15:07 Europe/Bucharest] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/absolvire/public_html/connect.php:9
+Stack trace:
+#0 /home/absolvire/public_html/connect.php(9): mysqli->__construct()
+#1 /home/absolvire/public_html/cash/qr_code.php(12): require('...')
+#2 {main}
+  thrown in /home/absolvire/public_html/connect.php on line 9
+[02-Mar-2025 17:15:25 Europe/Bucharest] PHP Warning:  parse_ini_file(../.env): Failed to open stream: No such file or directory in /home/absolvire/public_html/connect.php on line 3
+[02-Mar-2025 17:15:25 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 4
+[02-Mar-2025 17:15:25 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 5
+[02-Mar-2025 17:15:25 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 6
+[02-Mar-2025 17:15:25 Europe/Bucharest] PHP Warning:  Trying to access array offset on value of type bool in /home/absolvire/public_html/connect.php on line 7
+[02-Mar-2025 17:15:25 Europe/Bucharest] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/absolvire/public_html/connect.php:9
+Stack trace:
+#0 /home/absolvire/public_html/connect.php(9): mysqli->__construct()
+#1 /home/absolvire/public_html/cash/qr_code.php(12): require('...')
+#2 {main}
+  thrown in /home/absolvire/public_html/connect.php on line 9
+[02-Mar-2025 17:16:08 Europe/Bucharest] PHP Warning:  Undefined variable $conn in /home/absolvire/public_html/cash/qr_code.php on line 22
+[02-Mar-2025 17:16:08 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/absolvire/public_html/cash/qr_code.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/absolvire/public_html/cash/qr_code.php on line 22
+[02-Mar-2025 17:16:09 Europe/Bucharest] PHP Warning:  Undefined variable $conn in /home/absolvire/public_html/cash/qr_code.php on line 22
+[02-Mar-2025 17:16:09 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/absolvire/public_html/cash/qr_code.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/absolvire/public_html/cash/qr_code.php on line 22
